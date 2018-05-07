@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+.top {
+    width: 100%;
+    height: 27px;
+    background: url("../images/top_bg.jpg") repeat-x;
+}
+
+.topContent {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.topContent li {
+    list-style-image: url("../images/li_bg.gif");
+    float: right;
+    width: 70px;
+    line-height: 27px;
+}
+
+.topContent a:link, .topContent a:visited{
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+.topContent a:hover, .topContent a:active {
+    color: #900;
+    text-decoration: none;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 80px;
+    background: #fff;
+}
+
+.logoLeft {
+    width: 200px;
+    float: left;
+}
+
+.logoLeft img {
+    display: block; /*img放在div里，会使得div的垂直高度有3px的增加，这样可能会阻碍浮动的效果，解决办法是将img的display设为block*/
+}
+
+.logoRight {
+    width: 300px;
+    float: right;
+    margin-top: 24px;
+}
+
+.logoRight img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.tel {
+   font-size: 16px;
+    color: #c00;
+}
+
+.nav {
+    height: 40px;
+}
+
+.navLeft {
+    width: 10px;
+    background: url("../images/nav_left.jpg") no-repeat;
+    float: left;
+    height: 40px;
+}
+
+.navMid {
+    width: 980px;
+    background: url("../images/nav_bg.jpg") repeat-x;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.navRight {
+    width: 10px;
+    background: url("../images/nav_right.jpg");
+    float: left;
+    height: 40px;
+}
+
+.navMidLeft {
+    float: left;
+    width: 680px;
+}
+
+.navMidRight {
+    float: left;
+    width: 300px;
+}
+.navMidLeft li {
+    list-style-type: none;
+    float: left;
+    width: 100px;
+    text-align: center;
+}
+
+.navMidLeft a:link, .navMidLeft a:visited{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+.navMidLeft a:hover, .navMidLeft a:active {
+    text-decoration: none;
+    color: #c00;
+}
+
+.searchText {
+    height: 25px;
+    width: 190px;
+    background: url("../images/search.jpg") no-repeat right center;
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding-right: 25px;
+}
+
+.ad {
+    height: 320px;
+    margin-top: 5px;
+    overflow: hidden;
+}
+
+.ad li {
+    list-style-type: none;
+}
+
+.main {
+    height: 250px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+.news {
+    width: 340px;
+    border: 1px solid #8e8e8e;
+    float: left;
+}
+
+.course {
+    width: 410px;
+    border: 1px solid #8e8e8e;
+    float: left;
+    margin: 0 7px;
+}
+
+.sidebar {
+    width: 230px;
+    float: left;
+}
+.news, .course, .sidebar {
+    height: 250px;
+}
+
+.title {
+    height: 35px;
+    border-bottom: 2px solid #8e8e8e;
+}
+
+.titleLeft {
+    width: 70%;
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    color: #786f66;
+    line-height: 35px;
+    padding-left: 20px;
+}
+
+.titleRight {
+    width: 20%;
+    float: right;
+    line-height: 35px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.titleRight a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.picNews {
+    height: 80px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.picNews img, .coursePic img{
+    float: left;
+    margin: 0 5px;
+}
+
+.picNews a, .coursePic a{
+    text-decoration: none;
+    color: #c00;
+}
+
+.newsList {
+    margin-top: 20px;
+}
+
+.newsList li {
+    list-style-type: none;
+    background: url("../images/list.jpg") no-repeat;
+    padding-left: 10px;
+    margin: 8px;
+    border-bottom: 1px dotted #ccc;
+}
+
+.newsList a:link, .newsList a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+.newsList a:hover, .newsList a:active {
+    text-decoration: none;
+    color: #f00;
+}
+
+.newsList span {
+    float: right;
+    color: #8e8e8e;
+}
+
+.coursePic {
+    height: 120px;
+    margin-top: 10px;
+    line-height: 22px;
+}
+
+.courseType {
+    height: 37px;
+    width: 372px;
+    background: url("../images/product_type_bg.jpg") no-repeat;
+    margin: 20px auto;
+}
+
+.courseType li {
+    list-style-type: none;
+    float: left;
+    line-height: 37px;
+    margin: 0 15px;
+    text-align: center;
+}
+
+.video {
+    height: 185px;
+    border: 1px solid #8e8e8e;
+}
+
+.videoContent {
+    height: 150px;
+}
+
+.sidebarAd {
+    height: 55px;
+    border: 1px solid #8e8e8e;
+    margin-top: 10px;
+}
+

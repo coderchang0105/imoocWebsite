@@ -276,3 +276,34 @@ body {
     margin-top: 10px;
 }
 
+.copyright {
+    width: 100%;
+    height: 200px;
+    background: #8e8e8e;
+    margin-top: 10px;
+}
+
+.copyrightContent {
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.copyrightContent li {
+    list-style-type: none;
+    float: left;
+    width: 200px;
+    background: url("../images/line.png") no-repeat right center;
+    text-align: center;
+    line-height: 30px;
+}
+
+.copyrightContent a {
+    text-decoration: none;
+    color: #aaa;
+    font-size: 18px;
+}
+
+.copyrightContent li ul li a{
+    font-size: 14px;
+}
